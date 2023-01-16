@@ -1,4 +1,4 @@
-package springdemo;
+package firstssoftware;
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
@@ -10,7 +10,7 @@ public class AnnotationDemoApp {
                 new ClassPathXmlApplicationContext("applicationContext.xml");
 
         // get the bean from spring container
-        Coach theCoach = context.getBean("thatSillyCoach", Coach.class);
+        Coach theCoach = context.getBean("thatcoach", Coach.class);
 
         // call a method on the bean
         System.out.println(theCoach.getDailyWorkout());
