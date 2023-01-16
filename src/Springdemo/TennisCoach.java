@@ -1,4 +1,4 @@
-package firstssoftware;
+package Springdemo;
 
 import org.springframework.stereotype.Component;
 
